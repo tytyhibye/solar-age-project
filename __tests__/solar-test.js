@@ -8,4 +8,9 @@ describe ("Planets", () => {
     expect(typeof(testOne.planetName)).toEqual("string");
     expect(typeof(testOne.perYear)).toEqual("number");
   })
+
+  test('should return earth years in days', () => {
+    let testTwo = new Planets ( 33, "Earth", 12045)
+    expect(testTwo.getDays(testTwo.userAge)).toEqual("12045");
+  })
 })

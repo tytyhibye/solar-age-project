@@ -4,4 +4,10 @@ export class Planets {
     this.planetName = planetName;
     this.perYear = perYear;
   }
+
+getDays() {
+  let age = this.userAge;
+  this.perYear = (age*365);
+  return this.perYear;
+  }
 }

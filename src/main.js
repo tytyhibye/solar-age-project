@@ -16,7 +16,7 @@ $("#inputForm").submit(function(event) {
   switch(inputName){
     case 'Mercury':
       planetAge = 88
-      break
+      break;
   }
 
   let newPlanet = new Planet(inputName, planetAge, inputAge)

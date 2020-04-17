@@ -5,13 +5,14 @@ export class Planet {
     this.usersAge = usersAge;
   }
   getDays() {
-    let age = this.perYear;
-    this.perYear = (age * 365);
-    return this.perYear
+    let age = this.usersAge;
+    this.usersAge = (age * 365);
+    return this.usersAge;
   }
   getAge() {
-    var days = this.perYear;
-    this.solarAge = (days / mercury.perYear)
+    this.solarAge = (this.usersAge / this.perYear)
+    console.log(this.perYear)
+    console.log(this.userAge)
     return this.solarAge
   }
 }

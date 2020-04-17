@@ -1,7 +1,7 @@
 {
   "name": "solar-age",
   "version": "1.0.0",
-  "description": "",
+  "description": "####Intermediate JavaScript, Friday Project, April 17th, 2020",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -30,10 +30,18 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "bootstrap": "^3.4.1",
+    "bootstrap": "^4.4.1",
     "bootstrap-sass": "^3.4.1",
     "jquery": "^3.5.0",
     "popper": "^1.0.1",
     "popper.js": "^1.15.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tytyhibye/solar-age-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tytyhibye/solar-age-project/issues"
+  },
+  "homepage": "https://github.com/tytyhibye/solar-age-project#readme"
 }

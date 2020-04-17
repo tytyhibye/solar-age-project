@@ -1,4 +1,6 @@
-import { Planet } from "./../src/solar-bizz.js"
+import { Planet } from "../src/solar-bizz.js"
+
+
 
 describe ("Planet", () => {
 

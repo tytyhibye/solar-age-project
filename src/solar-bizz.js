@@ -1,9 +1,8 @@
 export class Planet {
-  constructor(planetName, perYear, inputAge, solarAge) {
+  constructor(planetName, perYear) {
     this.planetName = planetName;
     this.perYear = perYear;
-    this.inputAge = inputAge;
-    this.solarAge = solarAge;
+    
   }
   getDays() {
     let age = this.inputAge;

@@ -11,7 +11,7 @@ export class Planet {
     return this.perYear;
   }
   getAge() {
-    var days = 12045;
+    var days = this.perYear;
     this.solarAge = (days / mercury.perYear)
     return this.solarAge
   }

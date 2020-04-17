@@ -14,8 +14,8 @@
       <form id="inputForm">
         <div class="form-group">
           <h3>Please enter your age</h3>
-          <br>
           <input type="text" id="age" pattern="[0-9' ']+" oninvalid="setCustomValidity('Number only, please REFRESH the page and try again.')">
+          <br>
           <br>
           <h3>Choose a planet you would like to inhabit:</h3>
           <select class="form-control" id="planet">
@@ -38,6 +38,7 @@
         <h3>You are <span id="outputAge"></span> in <span id="outputPlanet"></span> years!</h3>
       </div>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
   </body>
 </html>

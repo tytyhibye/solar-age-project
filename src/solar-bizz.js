@@ -1,13 +1,13 @@
 export class Planet {
-  constructor(planetName, perYear) {
+  constructor(planetName, perYear, usersAge) {
     this.planetName = planetName;
     this.perYear = perYear;
-    
+    this.usersAge = usersAge;
   }
   getDays() {
-    let age = this.inputAge;
+    let age = this.perYear;
     this.perYear = (age * 365);
-    return this.perYear;
+    return this.perYear
   }
   getAge() {
     var days = this.perYear;

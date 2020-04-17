@@ -11,18 +11,18 @@ export class Planet {
     return this.perYear;
   }
   getAge() {
-    var perYear = 12045;
-    this.solarAge = (perYear / mercury.perYear)
+    var days = this.perYear;
+    this.solarAge = (days / planetName.perYear)
     return this.solarAge;
   }
 }
 
-let mercury = new Planet(0, "mercury", 88,);
-let venus = new Planet(0, "venus", 224);
-let earth = new Planet(0, "earth", 365);
-let mars = new Planet(0, "mars", 687);
-let jupiter = new Planet(0, "jupiter", 4329);
-let saturn = new Planet(0, "saturn", 10759);
-let uranus = new Planet(0, "uranus", 30688.5);
-let neptune = new Planet(0, "neptune", 60182);
-let pluto = new Planet(0, "pluto", 90553);
+export let mercury = new Planet(0, "Mercury", 88,);
+export let venus = new Planet(0, "Venus", 224);
+export let earth = new Planet(0, "Earth", 365);
+export let mars = new Planet(0, "Mars", 687);
+export let jupiter = new Planet(0, "Jupiter", 4329);
+export let saturn = new Planet(0, "Saturn", 10759);
+export let uranus = new Planet(0, "Uranus", 30688.5);
+export let neptune = new Planet(0, "Neptune", 60182);
+export let pluto = new Planet(0, "Pluto", 90553);

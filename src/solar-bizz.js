@@ -13,10 +13,10 @@ export class Planet {
   getAge() {
     var days = 12045;
     this.solarAge = (days / mercury.perYear)
-    return this.solarAge;
+    return this.solarAge
   }
 }
-export let mercury = new Planet("Mercury", 88,);
+export let mercury = new Planet("Mercury", 88);
 export let venus = new Planet("Venus", 224);
 export let earth = new Planet("Earth", 365);
 export let mars = new Planet("Mars", 687);

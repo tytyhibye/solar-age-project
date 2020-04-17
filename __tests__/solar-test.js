@@ -1,19 +1,18 @@
-import { Planet } from "../src/solar-bizz.js"
+import { Planet } from "../src/solar-bizz"
 
-
-//let mercury = new Planet(0, "mercury", 88, '');
+console.log(Planet)
 
 describe ("Planet", () => {
 
   test('should verify user input age is numbers only', () => {
-    const testOne = new Planet("Saturn", 10759, 33)
+    const testOne = new Planet("earth", 365, 33)
     expect(typeof(testOne.planetName)).toEqual("string");
     expect(typeof(testOne.perYear)).toEqual("number");
     expect(typeof(testOne.inputAge)).toEqual("number");
   })
 
   test('should return earth years in days', () => {
-    let testTwo = new Planet("Earth", 365, 33)
+    let testTwo = new Planet("earth", 365, 33)
     expect(testTwo.getDays(testTwo.inputAge)).toEqual(12045);
   })
 

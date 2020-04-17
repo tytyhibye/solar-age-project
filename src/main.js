@@ -11,19 +11,28 @@ import { mercury } from "./solar-bizz.js";
 
 //UI logic:
 $(document).ready(function() {
-  let planetList = [];
+  let planetList = [mercury];
 
 
   $("form#inputForm").submit(function(event) {
     event.preventDefault();
 
     var inputAge = $("#age").val();
+    console.log(inputAge);
     var planetName = $("#planet").val();
+    console.log(planetName);
     var planetAge = new Planet(inputAge, planetName);
 
-    getDays(inputAge);
-    getAge()
+    this.getDays(inputAge);
+    comment.log(this.perYear)
+    // getAge();
 
-    $("#outputAge").text(planetName.solarAge)
+    this.planetSelector(planetName) {
+      if (planetName === "Mercury") {
+
+      }
+    }
+
+    $("#outputAge").text(this.solarAge)
   });
 });

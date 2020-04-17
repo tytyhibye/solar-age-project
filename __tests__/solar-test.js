@@ -1,6 +1,7 @@
 import { Planet } from "../src/solar-bizz.js"
 
 
+//let mercury = new Planet(0, "mercury", 88, '');
 
 describe ("Planet", () => {
 

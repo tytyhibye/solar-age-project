@@ -16,6 +16,6 @@ describe ("Planet", () => {
 
   test('should divide planets days by earth age in days to return solar age', () => {
     let testThree = new Planet(33, "mercury", 88)
-    expect(testThree.getAge(testThree.solarAge)).toEqual(136)
+    expect(testThree.getAge(testThree.solarAge)).toEqual(136.875)
   })
 })

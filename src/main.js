@@ -15,33 +15,33 @@ $("#inputForm").submit(function(event) {
   let planetAge = 0
   
   switch(inputName){
-    case 'Mercury':
-      planetAge = 88
-      break;
-    case 'Venus':
-      planetAge = 224
-      break;
-    case 'Earth':
-      planetAge = 365
-      break;
-    case 'Mars':
-      planetAge = 687
-      break;
-    case 'Saturn':
-      planetAge = 10759
-      break;
-    case 'Jupiter':
-      planetAge = 4329
-      break;
-    case 'Uranus':
-      planetAge = 30688.5
-      break;
-    case 'Neptune':
-      planetAge = 60182
-      break;
-    case 'Pluto':
-      planetAge = 90553
-      break;
+  case 'Mercury':
+    planetAge = 88
+    break;
+  case 'Venus':
+    planetAge = 224
+    break;
+  case 'Earth':
+    planetAge = 365
+    break;
+  case 'Mars':
+    planetAge = 687
+    break;
+  case 'Saturn':
+    planetAge = 10759
+    break;
+  case 'Jupiter':
+    planetAge = 4329
+    break;
+  case 'Uranus':
+    planetAge = 30688.5
+    break;
+  case 'Neptune':
+    planetAge = 60182
+    break;
+  case 'Pluto':
+    planetAge = 90553
+    break;
   }
 
   let newPlanet = new Planet(inputName, planetAge, inputAge)

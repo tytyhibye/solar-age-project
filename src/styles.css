@@ -1,0 +1,129 @@
+body {
+  background-image: url("https://www.highreshdwallpapers.com/wp-content/uploads/2013/01/Outer-Space-Wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 12px rgb(40, 189, 235), 0px 0px 12px #fff;
+}
+.jumbotron {
+  background-image: url("https://png.pngtree.com/back_origin_pic/05/12/91/8397375426abc19e086030f50c8f4c55.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.116);
+  border: double;
+  border-color: rgb(255, 255, 255);
+  
+}
+#button {
+  padding: auto;
+  width: auto;
+  height: auto;
+  color: rgb(248, 248, 215);
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 12px rgb(255, 251, 0), 0px 0px 12px #fff;
+  display: inline-block;
+  font-size: 21px;
+  cursor: pointer;
+  background-color: rgb(1, 39, 75);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  animation: blur 8s ease-in-out;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #fff ;
+}
+button:active {
+  background-color:  rgb(71, 47, 47);
+  transform: translateY(5px);
+ }
+button:hover {
+  background-color:  rgb(72, 67, 139);
+  transform: translateY(-1px);
+}
+@keyframes blur {
+  from {
+    box-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px rgb(184, 183, 123),
+      0px 0px 150px rgb(184, 183, 123),
+      0px 10px 100px rgb(184, 183, 123),
+      0px 10px 100px rgb(184, 183, 123),
+      0px 10px 100px rgb(184, 183, 123),
+      0px 10px 100px rgb(184, 183, 123),
+      0px -10px 100px rgb(184, 183, 123),
+      0px -10px 100px rgb(184, 183, 123);
+  }
+}
+#results {
+  display: none;
+}
+#reset {
+  padding: auto;
+  width: auto;
+  height: auto;
+  color: rgb(248, 248, 215);
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 12px rgb(255, 251, 0), 0px 0px 12px #fff;
+  display: inline-block;
+  font-size: 21px;
+  cursor: pointer;
+  background-color: rgb(1, 39, 75);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  animation: blur 8s ease-in-out;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #fff ;
+}#reset:active {
+  background-color:  rgb(71, 47, 47);
+  transform: translateY(5px);
+ }
+#reser:hover {
+  background-color:  rgb(72, 67, 139);
+  transform: translateY(-1px);
+}
+.inputBox {
+  display: inline-block;
+  text-align: center;
+}
+#age {
+  padding: auto;
+  width: 120px;
+  height: 60px; 
+  background-color: rgb(1, 39, 75);
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-family: impact;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 12px rgb(40, 189, 235), 0px 0px 12px #fff;
+  text-align: center;
+
+}
+#planet {
+  width: auto;
+  height: auto; 
+  background-color: rgb(1, 39, 75);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 7px rgb(40, 189, 235), 0px 0px 7px #fff;
+  text-align: center;
+}

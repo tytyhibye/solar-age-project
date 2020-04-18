@@ -47,8 +47,14 @@ $("#inputForm").submit(function(event) {
   let newPlanet = new Planet(inputName, planetAge, inputAge)
   newPlanet.getAge(newPlanet.getDays())
   // console.log(inputAge)
-
+  $(".inputField").fadeOut(300);
+  $("#results").fadeIn(1700);
   $("#outputAge").text(newPlanet.solarAge);
   $("#outputPlanet").text(newPlanet.planetName);
-
+  
+  $('#reset').click(function(event) {
+    event.preventDefault();
+    $("#results").hide();
+    $(".inputField").fadeIn(1700);
+  })
 });

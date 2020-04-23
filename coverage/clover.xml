@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1587617710331" clover="3.2.0">
-  <project timestamp="1587617710331" name="All files">
+<coverage generated="1587619692942" clover="3.2.0">
+  <project timestamp="1587619692942" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="11" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="solar-bizz.js" path="C:\Users\conno_000\Desktop\Epicodus\solar-age-project\src\solar-bizz.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>

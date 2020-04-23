@@ -22,10 +22,10 @@ return solar year to user  "2.7 solar years old"
 
 ## Setup/Installation Requirements
 
-Enter the url [https://tytyhibye.github.io/solar-age-project] into your browser.
+Enter the url https://tytyhibye.github.io/solar-age-project into your browser.
 
 For additional information on this project, you can:
-* _clone repository from_ [https://github.com/tytyhibye/solar-age-project
+* _clone repository from_ https://github.com/tytyhibye/solar-age-project
 * _find in directory_
 * _open index in local server_
 * _enjoy_

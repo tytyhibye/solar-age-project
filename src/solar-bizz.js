@@ -14,7 +14,7 @@ export class Planet {
     this.solarAge = (this.usersAge / this.perYear)
     if (this.solarAge >= 200) {
       this.lifeSpan = (this.solarAge -= 200);  //need to create lifeSpan without changing value of solarAge
-      endGame.push(this.lifeSpan, this.solarAge);
+      endGame.push(this.lifeSpan, this.solarAge); //possibly use boolean
       // console.log(this.getAge())
       console.log(endGame)      // returns [lifeSpan, lifeSpan]
       return endGame;

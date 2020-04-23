@@ -9,7 +9,6 @@
 An interactive site returning the users solar age depending on what planet in our solar system they inhabit.
 
 ## Logic Specifications
-```
 | Spec:                                               | Example:               | Output:   |
 |-----------------------------------------------------|------------------------|-----------|
 | collect user inputted age (numbers only)            | 33                     | 33        |
@@ -18,9 +17,6 @@ An interactive site returning the users solar age depending on what planet in ou
 | divide age(in days) by days per year on that planet | (12045 / 4329)         | 2.78      |
 | return solar year to user                           | "2.78 solar years old" | 2.78      |
 | ~ fin                                               |                        |           |
-|                                                     |                        |           |
-|                                                     |                        |           |
-
 ## Setup/Installation Requirements
 
 Enter the url https://tytyhibye.github.io/solar-age-project into your browser.

@@ -8,8 +8,8 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>🌎Your Solar Age🪐</h1>
-        <h4>Enter your age, then select a planet to find out how old you would be if you lived there!</h4>
+        <h1>🌎Solar Age Simulator🪐</h1>
+        <h4>Greetings Earthling. The year is 2529 and the average life expectancy of your kind is 200 of Earth's solar years. Enter your age below then select a planet to find out how long you would have lived there.</h4>
       </div>
       <div class="inputField">
         <form id="inputForm">
@@ -41,8 +41,9 @@
       </div>
       <br>
       <div id="results">
-        <h3>You are <span id="outputAge"></span> in <span id="outputPlanet"></span> years!</h3>
+        <h3>You have lived on <span id="outputPlanet"></span> for <span id="outputAge"></span> years.</h3>
         <br>
+        <h3 id="rip">Unfortunately, you passed away <span id="outputSpan"></span> years ago.</h3>
         <button id="reset" class="btn btn-animated">Try Again</button>
       </div>
     </div>

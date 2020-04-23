@@ -18,4 +18,9 @@ describe ("Planet", () => {
     let testThree = new Planet("Mercury", 88, 33)
     expect(testThree.getAge(testThree.getDays())).toEqual(136.875);
   })
+
+  test('should return the difference in time between users passing on inhabited planet', () => {
+    let testFour = new Planet("Mercury", 88, 50)
+    expect(testFour.getAge(testFour.usersAge)).toEqual(7.38);
+  })
 })

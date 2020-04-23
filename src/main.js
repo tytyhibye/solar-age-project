@@ -49,7 +49,13 @@ $("#inputForm").submit(function(event) {
   // console.log(inputAge)
   $(".inputField").fadeOut(300);
   $("#results").fadeIn(1700);
+  if (newPlanet.solarAge > 200) {
+    $("#outputAge").text(newPlanet.solarAge);
+    $("#outputSpan").text(newPlanet.lifeSpan);
+    $("#rip").fadeIn(1700);
+  } else {
   $("#outputAge").text(newPlanet.solarAge);
+  }
   $("#outputPlanet").text(newPlanet.planetName);
   
   $('#reset').click(function(event) {

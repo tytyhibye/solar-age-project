@@ -11,8 +11,11 @@ export class Planet {
   }
   getAge() {
     this.solarAge = (this.usersAge / this.perYear)
-    // console.log(this.perYear)
-    // console.log(this.userAge)
-    return this.solarAge
+    if (this.solarAge > 200) {
+      this.lifeSpan = this.solarAge -= 200;
+      return this.lifeSpan;
+    } else {
+    return this.solarAge;
+    }
   }
 }

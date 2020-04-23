@@ -1,7 +1,5 @@
 import { Planet } from "../src/solar-bizz"
 
-console.log(Planet)
-
 describe ("Planet", () => {
 
   test('should verify user input age is numbers only', () => {

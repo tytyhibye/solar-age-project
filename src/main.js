@@ -46,17 +46,18 @@ $("#inputForm").submit(function(event) {
 
   let newPlanet = new Planet(inputName, planetAge, inputAge)
   newPlanet.getAge(newPlanet.getDays())
-  // console.log(inputAge)
+  const endResult = newPlanet.getDays();
   $(".inputField").fadeOut(300);
   $("#results").fadeIn(1700);
   if (newPlanet.solarAge > 200) {
-    $("#outputAge").text(newPlanet.solarAge);
-    $("#outputSpan").text(newPlanet.lifeSpan);
+    $("#outputAge").text(endResult.endGame[1]);
+    $("#outputSpan").text(endResult.endGame[0]);
+    $("#outputPlanet").text(newPlanet.planetName);
     $("#rip").fadeIn(1700);
-  } else {
-  $("#outputAge").text(newPlanet.solarAge);
+  } else if (newPlanet.solarAge <= 200) {
+    $("#outputAge").text(newPlanet.solarAge);
+    $("#outputPlanet").text(newPlanet.planetName);
   }
-  $("#outputPlanet").text(newPlanet.planetName);
   
   $('#reset').click(function(event) {
     event.preventDefault();

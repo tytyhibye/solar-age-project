@@ -21,6 +21,6 @@ describe ("Planet", () => {
 
   test('should return the difference in time between users passing on inhabited planet', () => {
    let testFour = new Planet("Mercury", 88, 50)
-   expect(testFour.getAge(testFour.getDays())).toEqual([7.38, 207.38]);
+   expect(testFour.getAge(testFour.getDays())).toEqual([7.386363636363626, 207.38636363636363]);
   })
 })

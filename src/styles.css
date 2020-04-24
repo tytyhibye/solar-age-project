@@ -3,6 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  height:100vh;
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   font-weight: 700;

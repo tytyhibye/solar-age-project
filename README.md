@@ -19,7 +19,7 @@ An interactive site returning the users solar age depending on what planet in ou
 | ~ fin                                               |                        |           |
 ## Setup/Installation Requirements
 
-Enter the url https://tytyhibye.github.io/solar-age-project into your browser.
+Enter the url https://infallible-murdock-9138fb.netlify.app/ into your browser.
 
 For additional information on this project, you can:
 * _clone repository from_ https://github.com/tytyhibye/solar-age-project

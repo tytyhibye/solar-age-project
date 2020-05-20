@@ -1,6 +1,6 @@
 ﻿# _Solar Age Calculator_
 
-####Intermediate JavaScript, Friday Project, April 17th, 2020
+#### Intermediate JavaScript, Friday Project, April 17th, 2020
 
 #### By _Tyler Bates 
 
